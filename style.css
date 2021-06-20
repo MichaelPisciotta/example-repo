@@ -1,3 +1,51 @@
 body {
-    background: blue;
+    background-color: peachpuff;
+    ;
+    height: 400px;
+    width: 800px;
   } 
+
+header h1{
+    font-family: cursive;
+
+}
+  .rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rightside{
+text-align: center;
+margin-top: -350px;
+margin-left: 600px;
+}
+
+header {
+margin-bottom: 100px;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+nav li {
+    display: inline-block;
+    height: 100%;
+    width: 19%;
+}
+
+nav li a {
+    font-family: cursive;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #dd5771;
+}
